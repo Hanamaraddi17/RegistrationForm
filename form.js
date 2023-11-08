@@ -6,6 +6,7 @@ const pwd = document.getElementById("pwd");
 const cpwd = document.getElementById("cpwd");
 const sumbmitContainer = document.getElementById("resultRegister");
 const result = document.getElementById("result");
+const img=document.getElementById("img");
 let message=""
 
 function submit() {
@@ -16,7 +17,7 @@ function submit() {
         sumbmitContainer.style.display = "none"; // Hide
     }
 
-    console.log(fname)
+    img.src="sad.webp"
     if (fname.value == "" && lname.value == "" && email.value == "" && pwd.value == "") {
         result.innerHTML = "All the fields are Empty.. "     
     }
@@ -44,6 +45,7 @@ function submit() {
 
     }
     else{
+        img.src="smile.webp"
         result.style.color="green"
         result.innerHTML="Congrats Your account Created Successfully...>"
     }

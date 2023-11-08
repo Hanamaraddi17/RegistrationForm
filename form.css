@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: auto;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+div {
+  margin-top: 20px;
+  font-weight: 400;
+}
+nav {
+  width: 100vw;
+  height: 30px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+}
+form {
+  width: 200px;
+  margin-left: 10rem;
+}
+input,
+select {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  width: 300px;
+  height: 20px;
+  color: rgb(192, 131, 131);
+  text-decoration: turquoise;
+  margin-top: 20px;
+}
+#chbox {
+  margin-top: 10px;
+  margin-left: -50px;
+  width: 15px;
+}
+.formContainer {
+  border: solid black 0.5px;
+  box-shadow: 0 0 50px 15px #48abe0;
+  border-radius: 20px;
+  text-align: center;
+  background-color: transparent;
+  width: 40vw;
+  margin:0 30vw;
+  margin-top: 90px;
+}
+button {
+  background-color: turquoise;
+  border: solid violet;
+  border-radius: 10ch;
+  margin: 10px 50px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: violet;
+  color: white;
+}
+span {
+  color: violet;
+}
+.why {
+  margin: 20px;
+  padding: 2px;
+  background-color: transparent;
+  color: black;
+}
+.resultRegister {
+  font-size: xx-large;
+  font-weight: bolder;
+  border-radius: 20px;
+  display: none;
+  background-color: bisque;
+  border-color: black;  
+  color:red;
+  position: fixed;
+  left: 560px;
+  width: 450px;
+  height: 450px;
+}
+.resultRegister div {
+  padding-left: 50px;
+}

@@ -1,90 +1,110 @@
 * {
-  margin: 0;
-  padding: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
+
 body {
-  font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
+
 div {
-  margin-top: 20px;
-  font-weight: 400;
+    margin-top: 20px;
+    font-weight: 400;
 }
+
 nav {
-  width: 100vw;
-  height: 30px;
-  background-color: black;
-  position: fixed;
-  top: 0;
+    width: 100vw;
+    height: 30px;
+    background-color: black;
+    position: fixed;
+    top: 0;
 }
+
+.formContainer {
+    border: solid black 0.5px;
+    box-shadow: 0 0 50px 15px #48abe0;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    width: 80%; 
+    max-width: 500px; 
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 20px;
+}
+
 form {
-  width: 200px;
-  margin-left: 10rem;
+    width: 100%; 
 }
+
 input,
 select {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 500;
-  width: 300px;
-  height: 20px;
-  color: rgb(192, 131, 131);
-  text-decoration: turquoise;
-  margin-top: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 500;
+    width: 100%; 
+    max-width: 300px;
+    height: 40px; 
+    color: rgb(192, 131, 131);
+    text-decoration: turquoise;
+    margin-top: 20px;
 }
+
 #chbox {
-  margin-top: 10px;
-  margin-left: -50px;
-  width: 15px;
+    margin-top: 10px;
+    margin-left: -50px;
+    width: 15px;
 }
-.formContainer {
-  border: solid black 0.5px;
-  box-shadow: 0 0 50px 15px #48abe0;
-  border-radius: 20px;
-  text-align: center;
-  background-color: transparent;
-  width: 40vw;
-  margin:0 30vw;
-  margin-top: 90px;
-}
+
 button {
-  background-color: turquoise;
-  border: solid violet;
-  border-radius: 10ch;
-  margin: 10px 50px;
+    background-color: turquoise;
+    border: solid violet;
+    border-radius: 10ch;
+    margin: 10px 50px;
+    width: 40%; 
 }
+
 button:hover {
-  cursor: pointer;
-  background-color: violet;
-  color: white;
+    cursor: pointer;
+    background-color: violet;
+    color: white;
 }
+
 span {
-  color: violet;
+    color: violet;
 }
+
 .why {
-  margin: 20px;
-  padding: 2px;
-  background-color: transparent;
-  color: black;
+    margin: 20px;
+    padding: 2px;
+    background-color: transparent;
+    color: black;
 }
+
 .resultRegister {
-  font-size: xx-large;
-  font-weight: bolder;
-  border-radius: 20px;
-  display: none;
-  background-color: bisque;
-  border:solid black 0.4px;  
-  color:red;
-  position: fixed;
-  left: 550px;
-  width: 450px;
-  height: 450px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 20px;
+    display: none;
+    background-color: bisque;
+    border: solid black 0.4px;
+    color: red;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Make width responsive */
+    max-width: 450px;
+    height: 450px;
 }
+
 .resultRegister div {
-  padding-left: 50px;
+    padding-left: 50px;
 }
-.resultRegister img{
-  margin-left:110px;
-  width: 250px;
-  height: 250px;
-  border-radius: 50px;
-  color:black;
+
+.resultRegister img {
+    margin-left: 110px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    color: black;
 }
